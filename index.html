@@ -38,16 +38,6 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>  
-  <center><form name="link"><select name="Secciones">
-<option selected="selected">Elige un enlace</option>
-<option value="https://viku1.github.io/RevistaMalv-n/#entrevistas">Entrevistas</option>
-<option value="https://viku1.github.io/RevistaMalv-n/#opini%C3%B3n">Notas de opinión</option>
-</select>  <input onclick="location=document.link.menu.options[document.link.menu.selectedIndex].value;" type="button" value="Ir" /><span style="line-height: 1.3em;"> </span></form></center>
-  <br>
     <br>
   <br>
   <br>
@@ -56,7 +46,16 @@
   <br>
   <br>
   <br>
-  <br>                                                                                                                          
+  <br> 
+  <select
+onchange="location.href=this.options[this.selectedIndex].value"
+name="Secciones"
+size="1">
+<option value="#" selected>Elija un destino</option>
+<option value="https://viku1.github.io/RevistaMalv-n/#entrevistas">Entrevistas</option>
+<option value="https://viku1.github.io/RevistaMalv-n/#opini%C3%B3n">Notas de opinión</option>
+
+</select>
 <h1>Secciones:</h1>                                                                                                                            
 <h1><a href="#entrevistas">#Entrevistas:</a></h1><br> 
  <h2><a href="#cultura">#Cultura (de nuevo a antiguo):</a></h2><br>
